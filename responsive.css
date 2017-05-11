@@ -1,0 +1,29 @@
+section{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+body{
+  background-color: cyan;
+  font-family: 'Indie Flower', cursive;
+}
+@media(min-widt: 280px) {
+  body{
+    background-color: #F5B7B1;
+  }
+}
+
+@media(min-width: 700px)and{
+  body{
+    background-color: #A2D9CE;
+  }
+}
+
+@media(max-width:1200px){
+  body{
+    background-color: #D2B4DE;
+  }
+}
